@@ -1,6 +1,6 @@
 function setup()
 {
-	creative Canvas(800,600);
+	createCanvas(800,600);
 	noFill();
 	stoke(255,0,0);
 
