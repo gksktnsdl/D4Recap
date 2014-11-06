@@ -1,5 +1,5 @@
 //function setup()
-{
+
 	createCanvas(800,600);
 	noFill();
 	stroke(255,0,0);
@@ -17,7 +17,7 @@ function setup() {
 
 
 function draw() {
-   //background(255);
+   background(bg);
    bg = loadImage("space1.jpg")
    fill(216,54,74);
    noStroke();
