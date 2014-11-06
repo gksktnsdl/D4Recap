@@ -1,4 +1,5 @@
 var bg;
+var image;
 var y = 0;
 
 function setup() {
@@ -20,7 +21,7 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 //지구
    fill(108,211,121);
-   ellipse(250 + Math.cos(timing*2*PI)*300,           // x좌표
+   image(image, 250 + Math.cos(timing*2*PI)*300,           // x좌표
         250 + Math.sin(timing*2*PI)*200,       // y좌표
         50,                                     // width
         50);                                    // height
