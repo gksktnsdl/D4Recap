@@ -6,7 +6,7 @@ function setup() {
   // into the size() method. In this program, the size of the image
   // is 710x400 pixels.
   bg = loadImage("space2.jpg");
-  createCanvas(800, 800);
+  createCanvas(700, 700);
 }
 
 function draw() {
