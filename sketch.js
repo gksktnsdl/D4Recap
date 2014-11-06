@@ -6,6 +6,7 @@ function setup() {
   // into the size() method. In this program, the size of the image
   // is 710x400 pixels.
   bg = loadImage("space2.jpg");
+  image = loadImage("earth.png")
   createCanvas(600, 600);
 }
 
