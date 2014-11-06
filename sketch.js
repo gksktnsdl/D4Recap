@@ -17,8 +17,8 @@ function setup() {
 
 
 function draw() {
-   background(255);
-   //bg = loadImage("space1.jpg")
+   //background(255);
+   bg = loadImage("space1.jpg")
    fill(216,54,74);
    noStroke();
     ellipse(250,250,250,250);
