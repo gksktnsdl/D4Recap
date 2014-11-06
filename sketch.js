@@ -7,7 +7,7 @@ function setup() {
   // into the size() method. In this program, the size of the image
   // is 710x400 pixels.
   bg = loadImage("space2.jpg");
-  img = loadImage("earth.png")
+  img = loadImage("earth.png");
   createCanvas(600, 600);
 }
 
@@ -20,11 +20,10 @@ function draw() {
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
 //지구
-   fill(108,211,121);
+
    image(img, 250 + Math.cos(timing*2*PI)*300,           // x좌표
-        250 + Math.sin(timing*2*PI)*200,       // y좌표
-        50,                                     // width
-        50);                                    // height
+        250 + Math.sin(timing*2*PI)*200);      // y좌표
+                                 // height
 
 //원궤도
    var duration = 4000;
