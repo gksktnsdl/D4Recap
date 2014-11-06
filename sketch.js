@@ -1,10 +1,16 @@
+var bg;
+var y = 0;
+
 function setup() {
-    createCanvas(800, 800);
+  // The background image must be the same size as the parameters
+  // into the size() method. In this program, the size of the image
+  // is 710x400 pixels.
+  bg = loadImage("space1.jpg");
+  createCanvas(800, 800);
 }
 
 function draw() {
    background(bg);
-   bg = loadImage("space1.jpg")
    fill(216,54,74);
    noStroke();
     ellipse(250,250,250,250);
